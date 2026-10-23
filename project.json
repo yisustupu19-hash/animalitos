@@ -1,0 +1,64 @@
+{
+  "title": "union de animalitos",
+  "author": "Nadyr I, Franco r, Jesus c",
+  "school": "Unison caborca",
+  "date": "11/10/26",
+  "areaCodes": [
+    "exp"
+  ],
+  "areas": {
+    "es": "Ciencias experimentales"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "levels": {
+    "es": "Primaria (6-12)"
+  },
+  "description": {
+    "es": "Relaciona imagen con su nombre "
+  },
+  "license": {
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA<\/a>"
+  },
+  "meta_langs": [
+    "es"
+  ],
+  "mainFile": "union_de_animalitos.jclic",
+  "cover": "project-cover.jpg",
+  "thumbnail": "project-thumb.jpg",
+  "activities": 11,
+  "mediaFiles": 24,
+  "totalSize": 1026768,
+  "files": [
+    "captura_de_pantalla_2026-10-11_122805-resized.jpg",
+    "captura_de_pantalla_2026-10-11_122842-resized.jpg",
+    "captura_de_pantalla_2026-10-11_122852-resized.jpg",
+    "captura_de_pantalla_2026-10-11_123022-resized.jpg",
+    "captura_de_pantalla_2026-10-11_123202-resized.jpg",
+    "captura_de_pantalla_2026-10-11_123211-resized.jpg",
+    "captura_de_pantalla_2026-10-11_123240-resized.jpg",
+    "captura_de_pantalla_2026-10-11_123245-resized.jpg",
+    "captura_de_pantalla_2026-10-15_215807-resized.jpg",
+    "captura_de_pantalla_2026-10-16_025036-resized.jpg",
+    "captura_de_pantalla_2026-10-16_025554-resized.jpg",
+    "captura_de_pantalla_2026-10-16_025857-resized.jpg",
+    "captura_de_pantalla_2026-10-16_030111-resized.jpg",
+    "captura_de_pantalla_2026-10-16_110022-resized.jpg",
+    "favicon.ico",
+    "icon-192.png",
+    "icon-72.png",
+    "imsmanifest.xml",
+    "index.html",
+    "mariposa-resized.jpg",
+    "png-transparent-cartoon-male-lion-lion-sitting-resized.jpg",
+    "pngtree-cute-wolf-in-cartoon-png-image_13128263-resized.jpg",
+    "project-cover.jpg",
+    "project-thumb.jpg",
+    "project.json",
+    "rana-resized.jpg",
+    "trigre-resized.jpg",
+    "union_de_animalitos.jclic",
+    "union_de_animalitos.jclic.js"
+  ]
+}

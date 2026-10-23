@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="union_de_animalitos" version="0.1.3">
+ <settings>
+  <title>union de animalitos</title>
+  <revision description="created" date="10/11/26" />
+  <author name="Nadyr I" />
+  <author name="Franco r" />
+  <author name="Jesus c" />
+  <organization name="Unison caborca" />
+  <description>
+   <p>Relaciona imagen con su nombre </p>
+  </description>
+  <descriptors area-codes="exp" level-codes="PRI" />
+  <meta_langs>es</meta_langs>
+  <descriptions>
+   <description language="es">
+    <p>Relaciona imagen con su nombre </p>
+   </description>
+  </descriptions>
+  <license type="by-nc-sa" url="https://creativecommons.org/licenses/by-nc-sa/4.0" />
+ </settings>
+ <sequence>
+  <item id="start" name="portada" />
+  <item name="actividad animalitos" />
+  <item name="sopa de letras animalitos" />
+  <item name="ROMPE CABEZAS" />
+  <item name="imagen con imagen" />
+  <item name="Crucigrama" />
+  <item name="Texto 1" />
+  <item name="texto 2" />
+  <item name="texto 3" />
+  <item name="texto 4" />
+  <item name="texto5" />
+ </sequence>
+ <activities>
+  <activity class="@textGrid.CrossWord" name="Crucigrama" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xFFCCCC" />
+     </style>
+     <p>Resuelve el crucigrama</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color background="0xFFCCCC" />
+     </style>
+     <p>lo lograstre</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xFF3333">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x3366FF" border="true" />
+   </settings>
+   <textGrid rows="17" columns="17" cellWidth="20.0" cellHeight="20.0" border="true">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <text>
+     <row>********L********</row>
+     <row>********OM*******</row>
+     <row>********BA*******</row>
+     <row>****J**HORMIGA***</row>
+     <row>****A****I**A****</row>
+     <row>****G****P**T****</row>
+     <row>****U****O**OSO**</row>
+     <row>****A****S*******</row>
+     <row>***ARDILLA*******</row>
+     <row>***R*E***********</row>
+     <row>***M*L***********</row>
+     <row>***A*FOCA********</row>
+     <row>***D*I***********</row>
+     <row>***I*N***********</row>
+     <row>***L*************</row>
+     <row>***L*************</row>
+     <row>***O*************</row>
+    </text>
+   </textGrid>
+   <cells rows="1" cols="3" cellWidth="200.0" cellHeight="60.0" border="true" id="acrossClues">
+    <style>
+     <color background="0xCCFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell id="1" item="1" />
+    <cell id="1" item="0" />
+    <cell id="2" item="1" />
+    <cell id="2" item="0" />
+    <cell id="3" item="1">
+     <p>representa a un vengador y tienen una reina</p>
+    </cell>
+    <cell id="3" item="0">
+     <p>felino solitario que vive en la selva</p>
+    </cell>
+    <cell id="3" item="1" />
+    <cell id="4" item="2" />
+    <cell id="4" item="0" />
+    <cell id="4" item="1" />
+    <cell id="4" item="2" />
+    <cell id="5" item="2" />
+    <cell id="5" item="0" />
+    <cell id="5" item="1" />
+    <cell id="5" item="2" />
+    <cell id="6" item="2">
+     <p>animal que le gusta la miel</p>
+    </cell>
+    <cell id="6" item="0" />
+    <cell id="6" item="1" />
+    <cell id="6" item="2" />
+    <cell id="7" item="2" />
+    <cell id="7" item="0" />
+    <cell id="7" item="1" />
+    <cell id="8" item="1" />
+    <cell id="8" item="0">
+     <p>viven en los árboles y les encantan las bellotas</p>
+    </cell>
+    <cell id="9" item="2" />
+    <cell id="9" item="0" />
+    <cell id="9" item="1" />
+    <cell id="10" item="2" />
+    <cell id="10" item="0" />
+    <cell id="10" item="1" />
+    <cell id="11" item="2" />
+    <cell id="11" item="0" />
+    <cell id="11" item="1">
+     <p>Mamífero marino que nada con aletas y come peces</p>
+    </cell>
+    <cell id="12" item="2" />
+    <cell id="12" item="0" />
+    <cell id="12" item="1" />
+    <cell id="13" item="2" />
+    <cell id="13" item="0" />
+    <cell id="13" item="1" />
+    <cell id="14" item="1" />
+    <cell id="14" item="0" />
+    <cell id="15" item="1" />
+    <cell id="15" item="0" />
+    <cell id="16" item="1" />
+    <cell id="16" item="0" />
+    <cell id="0" item="1" />
+    <cell id="0" item="0" />
+    <cell id="0" />
+    <cell id="1" />
+    <cell id="2" />
+   </cells>
+   <cells rows="1" cols="3" cellWidth="200.0" cellHeight="60.0" border="true" id="downClues">
+    <style>
+     <color background="0xCCFFFF" />
+    </style>
+    <cell id="9" item="1" />
+    <cell id="3" item="1" />
+    <cell id="3" item="0">
+     <p>animal que tiene como autodefensa el hacerse bolita</p>
+    </cell>
+    <cell id="4" item="1" />
+    <cell id="4" item="0" />
+    <cell id="5" item="1" />
+    <cell id="5" item="0">
+     <p>es el animal acuático mas inteligente</p>
+    </cell>
+    <cell id="6" item="2" />
+    <cell id="6" item="1" />
+    <cell id="6" item="0" />
+    <cell id="7" item="3" />
+    <cell id="7" item="2" />
+    <cell id="7" item="1" />
+    <cell id="7" item="0" />
+    <cell id="8" item="3" />
+    <cell id="8" item="2" />
+    <cell id="8" item="1" />
+    <cell id="8" item="0">
+     <p>animal que vive en manada</p>
+    </cell>
+    <cell id="9" item="0">
+     <p>tiene alas de colores</p>
+    </cell>
+    <cell id="9" item="0" />
+    <cell id="10" item="1" />
+    <cell id="10" item="0" />
+    <cell id="11" item="1" />
+    <cell id="11" item="0" />
+    <cell id="12" item="1" />
+    <cell id="12" item="0">
+     <p>felino doméstico y tiene 7 vidas</p>
+    </cell>
+    <cell id="13" item="2" />
+    <cell id="13" item="1" />
+    <cell id="13" item="0" />
+    <cell id="14" item="1" />
+    <cell id="14" item="0" />
+    <cell id="15" item="0" />
+    <cell id="1" item="0" />
+    <cell id="2" item="0" />
+    <cell id="16" item="0" />
+    <cell id="0" item="0" />
+    <cell id="0" />
+    <cell id="1" />
+    <cell id="2" />
+   </cells>
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="ROMPE CABEZAS" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0x99FF66" />
+     </style>
+     <p>Ordenas las piezas</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color background="0x66FFCC" />
+     </style>
+     <p>lo lograste</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0xFF9966">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFCC" border="true" />
+   </settings>
+   <cells rows="4" cols="5" border="true" image="Captura de pantalla 2026-10-15 215807-resized.jpg">
+    <style />
+    <shaper class="@ClassicJigSaw" cols="5" rows="4" />
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@text.Complete" name="Texto 1" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0x3399FF" />
+     </style>
+     <p>Completa la frase </p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color background="0x33FF99" />
+     </style>
+     <p>Bien hecho</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true">
+     <size width="600" height="500" />
+    </window>
+   </settings>
+   <checkButton />
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="default" family="Arial" background="0xFFFFFF" size="11" bold="false" italic="false" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" Alignment="1">
+      <cell width="300" height="200" image="trigre-resized.jpg">
+       <style>
+        <color background="0xFFFFFF" />
+       </style>
+      </cell>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" Alignment="1">
+      <text family="Century Gothic" size="36">Los </text>
+      <target>tigres</target>
+      <text family="Century Gothic" size="36"> son animales muy feroces.</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="actividad animalitos" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Century Gothic" size="28" bold="true" />
+      <color foreground="0xFFFFFF" background="0xCCCCFF" />
+     </style>
+     <p>Relaciona la imagen con su nombre</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Century Gothic" size="18" />
+      <color foreground="0xFFFFFF" background="0xCCCCFF" />
+     </style>
+     <p>LO LOGRASTE</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x66CCFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x3399FF" border="true" />
+   </settings>
+   <cells rows="4" cols="1" cellWidth="180.0" cellHeight="180.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell image="mariposa-resized.jpg" />
+    <cell image="png-transparent-cartoon-male-lion-lion-sitting-resized.jpg">
+     <style>
+      <font family="Century Gothic" size="18" />
+      <color foreground="0xFFFFFF" background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="pngtree-cute-wolf-in-cartoon-png-image_13128263-resized.jpg" />
+    <cell image="rana-resized.jpg" />
+   </cells>
+   <cells rows="4" cols="1" cellWidth="180.0" cellHeight="180.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell>
+     <style>
+      <font family="Century Gothic" size="18" />
+      <color foreground="0xFFFFFF" background="0x99FFCC" />
+     </style>
+     <p>MARIPOSA</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Century Gothic" size="18" />
+      <color foreground="0xFFFFFF" background="0x99FFCC" />
+     </style>
+     <p>LEÓN</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Century Gothic" size="18" />
+      <color foreground="0xFFFFFF" background="0x99FFCC" />
+     </style>
+     <p>LOBO</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Century Gothic" size="18" />
+      <color foreground="0xFFFFFF" background="0x99FFCC" />
+     </style>
+     <p>RANA</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="imagen con imagen" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Century Gothic" size="28" />
+      <color foreground="0xFF3366" background="0xCCCCFF" border="0xCCFFCC" />
+     </style>
+     <p>Imágen con imágen</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Century Gothic" size="20" />
+      <color foreground="0xFF6666" background="0xCCCCFF" />
+     </style>
+     <p>LO LOGRASTE</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xCCFFCC">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xCCFFFF" border="true" />
+   </settings>
+   <cells rows="4" cols="1" cellWidth="180.0" cellHeight="180.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell image="Captura de pantalla 2026-10-11 123022-resized.jpg">
+     <style>
+      <font family="Century Gothic" size="18" />
+      <color foreground="0xFFFFFF" background="0xFF99FF" />
+     </style>
+    </cell>
+    <cell image="Captura de pantalla 2026-10-11 122842-resized.jpg">
+     <style>
+      <font family="Century Gothic" size="18" />
+      <color foreground="0xFFFFFF" background="0x3366FF" />
+     </style>
+    </cell>
+    <cell image="Captura de pantalla 2026-10-11 123202-resized.jpg">
+     <style>
+      <font family="Century Gothic" size="18" />
+      <color foreground="0xFFFFFF" background="0xFFFF00" />
+     </style>
+    </cell>
+    <cell image="Captura de pantalla 2026-10-11 123240-resized.jpg">
+     <style>
+      <font family="Century Gothic" size="18" />
+      <color foreground="0xFFFFFF" background="0x33FF33" />
+     </style>
+    </cell>
+   </cells>
+   <cells rows="4" cols="1" cellWidth="180.0" cellHeight="180.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell image="Captura de pantalla 2026-10-11 122805-resized.jpg">
+     <style>
+      <font family="Century Gothic" size="18" />
+      <color foreground="0xFFFFFF" background="0xFF99FF" />
+     </style>
+    </cell>
+    <cell image="Captura de pantalla 2026-10-11 122852-resized.jpg">
+     <style>
+      <font family="Century Gothic" size="18" />
+      <color foreground="0xFFFFFF" background="0x3366FF" />
+     </style>
+    </cell>
+    <cell image="Captura de pantalla 2026-10-11 123211-resized.jpg">
+     <style>
+      <font family="Century Gothic" size="18" />
+      <color foreground="0xFFFFFF" background="0xFFFF00" />
+     </style>
+    </cell>
+    <cell image="Captura de pantalla 2026-10-11 123245-resized.jpg">
+     <style>
+      <font family="Century Gothic" size="18" />
+      <color foreground="0xFFFFFF" background="0x33FF33" />
+     </style>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="portada" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <color foreground="0xFFCCCC" background="0x6633FF" inactive="0xCC66FF" />
+     </style>
+     <p>Bienvenido al trabajo</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x9999FF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xCCFFCC" border="true" />
+   </settings>
+   <cells rows="1" cols="1" cellWidth="600.0" cellHeight="400.0" border="true">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="1" />
+    <cell image="Captura de pantalla 2026-10-16 110022-resized.jpg" />
+   </cells>
+  </activity>
+  <activity class="@textGrid.WordSearch" name="sopa de letras animalitos" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <color background="0x33FFCC" />
+     </style>
+     <p>ENCUENTRA LAS PALABRAS ESCONDIDAS</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color background="0x990066" />
+     </style>
+     <p>BIEN HECHO</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x66FF66">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x33FFFF" border="true" />
+   </settings>
+   <textGrid rows="15" columns="15" cellWidth="20.0" cellHeight="20.0" border="true">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <text>
+     <row>MARIPOSA******R</row>
+     <row>*********D****A</row>
+     <row>*********E****T</row>
+     <row>*ARAÑA***L****O</row>
+     <row>H********F**L*N</row>
+     <row>O********I**E**</row>
+     <row>R********N**O**</row>
+     <row>MGIRAFA*****N**</row>
+     <row>I**************</row>
+     <row>G******PANTERA*</row>
+     <row>A*********O****</row>
+     <row>***********R***</row>
+     <row>************R**</row>
+     <row>**GATO*******E*</row>
+     <row>**************P</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">RATON</clue>
+    <clue id="1">PERRO</clue>
+    <clue id="2">GATO</clue>
+    <clue id="3">DELFIN</clue>
+    <clue id="4">GIRAFA</clue>
+    <clue id="5">ARAÑA</clue>
+    <clue id="6">PANTERA</clue>
+    <clue id="7">HORMIGA</clue>
+    <clue id="8">MARIPOSA</clue>
+    <clue id="9">LEON</clue>
+   </clues>
+  </activity>
+  <activity class="@text.Complete" name="texto 2" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <color background="0xCCFFCC" />
+     </style>
+     <p>Completa la frase</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color background="0x00CC33" />
+     </style>
+     <p>bien hecho</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true">
+     <size width="600" height="500" />
+    </window>
+   </settings>
+   <checkButton>Evaluación</checkButton>
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="default" family="Arial" background="0xFFFFFF" size="11" bold="false" italic="false" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF" Alignment="0" />
+     <p family="Arial" background="0xFFFFFF" Alignment="1">
+      <cell width="300" height="200" image="Captura de pantalla 2026-10-16 025036-resized.jpg">
+       <style>
+        <color background="0xFFFFFF" />
+       </style>
+      </cell>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Century Gothic" background="0xFFFFFF" size="28" bold="false" italic="false">Los </text>
+      <target>delfines</target>
+      <text family="Century Gothic" background="0xFFFFFF" size="28" bold="false" italic="false"> son muy inteligentes</text>
+      <text family="Arial" background="0xFFFFFF" size="24" bold="false" italic="false"> </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" checkAccents="false" checkPunctuation="false" />
+  </activity>
+  <activity class="@text.Complete" name="texto 3" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <color background="0xCCFFCC" />
+     </style>
+     <p>Completa la frase</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color background="0xFFCCCC" />
+     </style>
+     <p>bien hecho</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true">
+     <size width="600" height="500" />
+    </window>
+   </settings>
+   <checkButton>Evaluación</checkButton>
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="default" family="Arial" background="0xFFFFFF" size="11" bold="false" italic="false" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF" Alignment="1">
+      <cell width="300" height="200" image="Captura de pantalla 2026-10-16 025554-resized.jpg">
+       <style>
+        <color background="0xFFFFFF" />
+       </style>
+      </cell>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Century Gothic" background="0xFFFFFF" size="28">Las </text>
+      <target>mariposas</target>
+      <text family="Century Gothic" background="0xFFFFFF" size="28"> polinizan flores </text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" checkAccents="false" checkPunctuation="false" />
+  </activity>
+  <activity class="@text.Complete" name="texto 4" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <color background="0xFFCCCC" />
+     </style>
+     <p>completa la frase</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color background="0xCCCCFF" />
+     </style>
+     <p>Bien hecho</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true">
+     <size width="600" height="500" />
+    </window>
+   </settings>
+   <checkButton>Evaluación</checkButton>
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="default" family="Arial" background="0xFFFFFF" size="11" bold="false" italic="false" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" Alignment="1">
+      <cell width="300" height="200" image="Captura de pantalla 2026-10-16 025857-resized.jpg">
+       <style>
+        <color background="0xFFFFFF" />
+       </style>
+      </cell>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Century Gothic" background="0xFFFFFF" size="28">La seda de las </text>
+      <target>arañas</target>
+      <text family="Century Gothic" background="0xFFFFFF" size="28"> es más resistente que el acero </text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" checkAccents="false" checkPunctuation="false" />
+  </activity>
+  <activity class="@text.Complete" name="texto5" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <color background="0xCCCCFF" />
+     </style>
+     <p>completa la frase</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color background="0xCCFFCC" />
+     </style>
+     <p>bien hecho</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true">
+     <size width="500" height="600" />
+    </window>
+   </settings>
+   <checkButton>Evaluación</checkButton>
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="default" family="Arial" background="0xFFFFFF" size="11" bold="false" italic="false" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" Alignment="1">
+      <cell width="300" height="200" image="Captura de pantalla 2026-10-16 030111-resized.jpg">
+       <style>
+        <color background="0xFFFFFF" />
+       </style>
+      </cell>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Century Gothic" background="0xFFFFFF" size="28">Las </text>
+      <target>tortugas</target>
+      <text family="Century Gothic" background="0xFFFFFF" size="28"> pueden vivir hasta 50 años</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" checkAccents="false" checkPunctuation="false" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="Captura de pantalla 2026-10-11 122805-resized.jpg" file="captura_de_pantalla_2026-10-11_122805-resized.jpg" />
+  <media name="Captura de pantalla 2026-10-11 122842-resized.jpg" file="captura_de_pantalla_2026-10-11_122842-resized.jpg" />
+  <media name="Captura de pantalla 2026-10-11 122852-resized.jpg" file="captura_de_pantalla_2026-10-11_122852-resized.jpg" />
+  <media name="Captura de pantalla 2026-10-11 123022-resized.jpg" file="captura_de_pantalla_2026-10-11_123022-resized.jpg" />
+  <media name="Captura de pantalla 2026-10-11 123202-resized.jpg" file="captura_de_pantalla_2026-10-11_123202-resized.jpg" />
+  <media name="Captura de pantalla 2026-10-11 123211-resized.jpg" file="captura_de_pantalla_2026-10-11_123211-resized.jpg" />
+  <media name="Captura de pantalla 2026-10-11 123240-resized.jpg" file="captura_de_pantalla_2026-10-11_123240-resized.jpg" />
+  <media name="Captura de pantalla 2026-10-11 123245-resized.jpg" file="captura_de_pantalla_2026-10-11_123245-resized.jpg" />
+  <media name="Captura de pantalla 2026-10-15 215807-resized.jpg" file="captura_de_pantalla_2026-10-15_215807-resized.jpg" />
+  <media name="Captura de pantalla 2026-10-16 025036-resized.jpg" file="captura_de_pantalla_2026-10-16_025036-resized.jpg" />
+  <media name="Captura de pantalla 2026-10-16 025554-resized.jpg" file="captura_de_pantalla_2026-10-16_025554-resized.jpg" />
+  <media name="Captura de pantalla 2026-10-16 025857-resized.jpg" file="captura_de_pantalla_2026-10-16_025857-resized.jpg" />
+  <media name="Captura de pantalla 2026-10-16 030111-resized.jpg" file="captura_de_pantalla_2026-10-16_030111-resized.jpg" />
+  <media name="Captura de pantalla 2026-10-16 110022-resized.jpg" file="captura_de_pantalla_2026-10-16_110022-resized.jpg" />
+  <media name="mariposa-resized.jpg" file="mariposa-resized.jpg" />
+  <media name="png-transparent-cartoon-male-lion-lion-sitting-resized.jpg" file="png-transparent-cartoon-male-lion-lion-sitting-resized.jpg" />
+  <media name="pngtree-cute-wolf-in-cartoon-png-image_13128263-resized.jpg" file="pngtree-cute-wolf-in-cartoon-png-image_13128263-resized.jpg" />
+  <media name="rana-resized.jpg" file="rana-resized.jpg" />
+  <media name="trigre-resized.jpg" file="trigre-resized.jpg" />
+ </mediaBag>
+</JClicProject>
+
